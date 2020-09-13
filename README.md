@@ -125,12 +125,13 @@ Running on http://0.0.0.0:8080
 ### Start a Bash session
 ```
 # docker exec -it <Container ID or name> /bin/bash
-docker exec -it <Container ID or name> bash
+$ docker exec -it <Container ID or name> bash
 ```
 
 ### Inspect web app running
 
 ```
 $ curl localhost:80
+
 Hello world
 ```
